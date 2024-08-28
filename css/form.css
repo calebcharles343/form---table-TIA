@@ -1,0 +1,74 @@
+#form {
+  background-color: rgba(27, 27, 50, 0.8);
+  max-width: 45rem;
+  padding: 2.5rem;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+
+.form-row {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.form-input {
+  width: 39.5rem;
+  height: 2.375rem;
+  padding: 6px 12px;
+}
+
+.hint {
+  margin-left: 0.25rem;
+  font-size: 0.9rem;
+  color: #e4e4e4;
+}
+
+.checkbox-input,
+.radio-input {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.textarea-input {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+}
+
+label,
+::placeholder,
+textarea::placeholder,
+select::placeholder {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+select {
+  font-size: 1.125rem;
+  color: #444;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: #37af65;
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background: #5fbf84;
+  transition: 0.3s;
+  color: #fff;
+}

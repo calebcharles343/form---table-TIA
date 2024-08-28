@@ -1,0 +1,42 @@
+#table {
+  border: 1px solid #fff;
+  padding: 40px;
+  background-color: #1b1b32;
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+
+  max-width: 88rem;
+}
+
+caption {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+#table a {
+  font-style: italic;
+}
+
+#table a:hover {
+  text-decoration: underline 3px solid #74c0fc;
+}
+
+colgroup {
+  display: table-column-group;
+  unicode-bidi: isolate;
+}
+
+td,
+th {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 10px 20px;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  unicode-bidi: isolate;
+  border-color: inherit;
+}

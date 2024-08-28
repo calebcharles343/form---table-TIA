@@ -1,0 +1,50 @@
+@media (max-width: 544px) {
+  html {
+    font-size: 10px;
+  }
+
+  .main h1,
+  .index-main h1 {
+    font-size: 3rem;
+  }
+
+  .index-main h2 {
+    font-size: 2.5rem;
+  }
+
+  .index-main h3 {
+    font-size: 2rem;
+  }
+
+  /* form query */
+
+  .form-input {
+    height: 3.375rem;
+  }
+
+  label,
+  ::placeholder,
+  textarea::placeholder,
+  select,
+  .hint,
+  form p {
+    font-size: 1.5rem;
+  }
+
+  /* table query */
+
+  .main {
+    overflow: scroll;
+  }
+  #table {
+    font-size: 0.9rem;
+    padding: 5px;
+    transform: rotate(90deg);
+    width: 55rem;
+  }
+
+  td,
+  th {
+    padding: 5px;
+  }
+}
