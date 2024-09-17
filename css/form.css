@@ -15,7 +15,12 @@ p {
   margin-bottom: 0.5rem;
 }
 
+label,
 .form-input {
+  display: flex;
+}
+.form-input {
+  text-align: justify;
   width: 39.5rem;
   height: 2.375rem;
   padding: 6px 12px;
@@ -46,8 +51,6 @@ label,
 ::placeholder,
 textarea::placeholder,
 select::placeholder {
-  display: flex;
-  align-items: center;
   font-size: 1.125rem;
   margin-bottom: 0.5rem;
 }
